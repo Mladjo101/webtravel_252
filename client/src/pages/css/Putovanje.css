@@ -1,0 +1,61 @@
+.putovanje-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    gap: 20px;
+    max-width: 800px; /* Limit the width to prevent the container from stretching to the edges of the screen */
+    margin: 0 auto; /* Center horizontally */
+}
+
+.putovanje-card {
+    margin-top: 20px;
+    width: 100%; /* Make each card fill the container */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.putovanje-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.putovanje-card h2 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.putovanje-card p {
+    margin: 5px 0;
+}
+
+.dugme-delete {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff0000;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.komande {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .komande:hover {
+    background-color: #0056b3;
+  }
+  
+  .komande:active {
+    transform: translateY(1px);
+  }
