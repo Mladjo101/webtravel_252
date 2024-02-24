@@ -8,7 +8,7 @@ const Korisnik = require('./models/Korisnik');
 
 
 
-mongoose.connect('mongodb+srv://mladjo:Kamberovic899@dbtravel-252.15bdh6q.mongodb.net/dbtravel_252?retryWrites=true&w=majority')
+mongoose.connect('URI of your mongoDB')//!add uri of your mongoDB
 .then(() => {
     console.log('Connected to database')
     dodajAdmin();
